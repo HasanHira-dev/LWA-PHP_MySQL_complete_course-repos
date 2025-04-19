@@ -1,0 +1,2 @@
+PHP_INT_SIZE - why 8?
+PHP_FLOAT_MIN - why last E+308 / E-308?
