@@ -235,10 +235,17 @@ echo "<br>";
 */
 
 for($i=1; $i<=5; $i++){
-    for($j=1; $j<=5; $j++){
+    for($j=$i; $j<=5; $j++){
         if($j % 2 == 1){
             echo "1 &nbsp;&nbsp;";
         } elseif($j % 2 == 0){
+            echo "0 &nbsp;&nbsp;";
+        }
+    }
+    for($k=$i; $k>1; $k--){
+        if($k % 2 != 1){
+            echo "1 &nbsp;&nbsp;";
+        } elseif($k % 2 != 0){
             echo "0 &nbsp;&nbsp;";
         }
     }
